@@ -1,7 +1,7 @@
 function ep1 (){
       window.scrollTo( 1000, 0 );
       document.getElementById("myVid").src = "https://videos.animesgratisbr.com/pubfolder/animes/Onepiece/1.mp4";
-      document.getElementById("tp").innerHTML="Episódio 929292";
+      document.getElementById("tp").textContent="New Text";
       }
 function ep2 (){
       window.scrollTo( 1000, 0 );
