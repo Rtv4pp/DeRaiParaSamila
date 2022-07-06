@@ -1,6 +1,11 @@
 <!DOCTYPE HTML>
 <html>
   <head>
+    <script>
+      function pagina01 (){
+        window.location.href = "http://www.devmedia.com.br";
+      }
+    </script>
    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>Eu te amo Samila!!!!</title> 
@@ -9,9 +14,12 @@
         width:50%; height:50%;
       }
       main {
+        display:inline-block;
         color:white;
-        background-color: gray;
-        border-radius:20px;
+      }
+      .logo {
+        max-width:50px; max-height:50px;
+        min-height:200px; min-width:150px;
       }
     </style>
   </head>
@@ -22,10 +30,14 @@
     </center>
     <main>
       <center>
-      <div>
-        <div>
-          <img src="" onclick="pagina01">
-          <p>Filme 08</p>
+      <div class="principal">
+        <div style="width:300px;border-radius:20px;margin:8px;padding:8px; background-color:gray;">
+          <img class="logo" style="border-radius:20px;" src="https://br.web.img3.acsta.net/medias/nmedia/18/87/74/31/19994978.jpg" onclick="pagina01"><br>
+          <span>One Piece – Filme 08 – A Princesa do Deserto e os Piratas</span>
+        </div>
+         <div style="width:300px;border-radius:20px;margin:8px;padding:8px;background-color:gray;">
+          <img class="logo" style="border-radius:20px;" src="https://br.web.img3.acsta.net/medias/nmedia/18/87/74/31/19994978.jpg" onclick="pagina01"><br>
+          <span>One Piece – Filme 08 – A Princesa do Deserto e os Piratas</span>
         </div>
       </div>
       </center>
