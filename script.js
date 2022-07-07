@@ -4,7 +4,7 @@ function ep1 (){
       }
 function ep2 (){
       window.scrollTo( 1000, 0 );
-      document.getElementById("myVid").src = "https://videos.animesgratisbr.com/pubfolder/animes/Onepiece/2.mp4";
+      document.getElementById("myVid").src = "https://p1.animescomix.com/stream/filmes-dublado/o/one-piece-filmes-dublado/one-piece-filme-10.mp4";
       }
 function ep3 (){
       window.scrollTo( 1000, 0 );
